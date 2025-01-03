@@ -42,13 +42,14 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: blue;
 }
 
 #save-btn {
     background: darkgreen;
 }
 
-#save-el {
+#decrement-btn {
+    background: red;
 }
 

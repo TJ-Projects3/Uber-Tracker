@@ -7,6 +7,14 @@ function increment() {
     countEl.textContent = count
 }
 
+function decrement() {
+    if (count <= 0) {
+        return alert("Cannot have negative count")
+    }
+    count -= 1
+    countEl.textContent = count
+}
+
 function save() {
     if (count == 0) {
          return alert("Update the count.")
